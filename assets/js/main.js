@@ -1,24 +1,27 @@
-let lastScrollY = 0;
 let isOnMobile = window.innerWidth <= 768;
 
-window.addEventListener("scroll", () => {
-  if (!isOnMobile) return;
+// Hide navbar on page load for mobile
+if (isOnMobile) {
+  document.body.classList.add("nav-hidden");
+}
 
-  let currentScrollY = window.scrollY;
-  
-  if (currentScrollY < 24 || currentScrollY < lastScrollY) {
-    document.body.classList.remove("nav-hidden");
-  } else {
+// Close navbar on scroll for mobile
+window.addEventListener("scroll", () => {
+  if (isOnMobile) {
     document.body.classList.add("nav-hidden");
   }
-  
-  lastScrollY = currentScrollY;
 });
 
 window.addEventListener("resize", () => {
   isOnMobile = window.innerWidth <= 768;
+  // Show navbar when resizing back to desktop
+  if (!isOnMobile) {
+    document.body.classList.remove("nav-hidden");
+  }
 });
 
-document.querySelector(".nav-reveal")?.addEventListener("click", () => {
-  document.body.classList.remove("nav-hidden");
+// Toggle navbar visibility when menu button is clicked
+document.querySelector(".nav-reveal")?.addEventListener("click", (e) => {
+  e.stopPropagation();
+  document.body.classList.toggle("nav-hidden");
 });

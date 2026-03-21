@@ -18,7 +18,7 @@
       </div>
       <div>
         <div class="footer-title">Visit Us</div>
-        <p>215 Sunrise Avenue, Suite 3<br />Springfield, CA 90021</p>
+        <p>123 Main Street<br />New Delhi, New Delhi 110001</p>
         <p>Mon - Sat: 8:00 AM - 8:00 PM<br />Sun: Emergency Only</p>
       </div>
     </div>

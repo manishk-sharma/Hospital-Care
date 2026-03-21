@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="header-contact">
-        <div>24/7 Emergency: <strong>+1 (555) 120-2400</strong></div>
+        <div>24/7 Emergency: <strong> Dial 112</strong></div>
         <div>info@hospitalcare.example</div>
       </div>
     </div>
@@ -45,6 +45,6 @@
     </div>
   </nav>
 
-  <button class="nav-reveal" type="button" aria-label="Show navigation">=</button>
+  <button class="nav-reveal" type="button" aria-label="Show navigation">☰</button>
 
   <main class="site-main">

@@ -12,7 +12,7 @@ include "includes/header.php";
       Our team responds within one business day.
     </p>
     <div class="hero-actions">
-      <a class="cta" href="tel:+15551202400">Call Now</a>
+      <a class="cta" href="tel:112">Call Now</a>
       <a class="button-secondary" href="mailto:info@hospitalcare.example">Email Us</a>
     </div>
   </div>
@@ -41,11 +41,11 @@ include "includes/header.php";
     </div>
     <div class="contact-card">
       <h3>Contact details</h3>
-      <p><strong>Phone:</strong> +1 (555) 120-2400</p>
+      <p><strong>Phone:</strong> Dial 112</p>
       <p><strong>Email:</strong> info@hospitalcare.example</p>
-      <p><strong>Ambulance:</strong> Dial 911</p>
+      <p><strong>Ambulance:</strong> Dial 112</p>
       <p><strong>Appointments:</strong> Mon - Sat, 8 AM - 6 PM</p>
-      <p><strong>Address:</strong> 215 Sunrise Avenue, Suite 3, Springfield, CA</p>
+      <p><strong>Address:</strong> 123 Main Street, New Delhi, New Delhi 110001</p>
     </div>
   </div>
 </section>

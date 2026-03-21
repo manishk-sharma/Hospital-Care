@@ -107,6 +107,20 @@ a {
   transition: transform 0.28s ease;
 }
 
+@media (max-width: 768px) {
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .site-main {
+    padding-top: 7rem;
+  }
+}
+
 .nav-reveal {
   position: fixed;
   top: 0.8rem;
@@ -840,7 +854,11 @@ a {
 
 @media (max-width: 768px) {
   body.nav-hidden .site-nav {
-    transform: translateY(-115%);
+    transform: translateY(-100%);
+  }
+
+  body.nav-hidden .site-main {
+    padding-top: 0;
   }
 
   body.nav-hidden .nav-reveal {
